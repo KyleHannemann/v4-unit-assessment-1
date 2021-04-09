@@ -1,0 +1,154 @@
+h1{
+    width: 100%;
+    height: 60px;
+    background-color: powderblue;
+    clear:left;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-top: solid black 1px;
+}
+h3{
+    padding-left: 20px;
+    font-size: 24px;
+}
+#wrapper1, #wrapper2, #wrapper3{
+    width: 94vw;
+    height: 30vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border:dashed black 1px;
+}
+#wrapper2{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#purple{
+    width: 20vw;
+    height: 10vh;
+    background-color: rebeccapurple;
+    border: solid 3px red;
+    margin-top: 16vh;
+    margin-left: 2vw;
+    float: left;
+}
+#blue{
+    height: 10vh;
+    width: 10vw;
+    background-color: royalblue;
+    float: left;
+    margin-top: 16vh;
+    margin-left: 2vw;
+    border: solid black 1px;
+    box-shadow: 5px 5px 10px;
+}
+#pink{
+    height: 24vh;
+    width: 24vw;
+    background-color: salmon;
+    float: left;
+    margin-top: 2vh;
+    margin-left:2vw;
+    border: 1px solid black;
+}
+#head{
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-left: 55px;
+    
+   
+}
+#torso{
+    width: 150px;
+    height: 150px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#legs{
+    
+    width: 200px;
+    height: 200px;
+    border: 1px black solid;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#eyeleft, #eyeright{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+    float: left;
+    margin-left: 23px;
+}
+#nose{
+    
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 8px solid transparent;
+border-bottom: 30px solid coral;
+margin-top: 35px;
+}
+.buttons{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+#whiteSquare{
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    height: 250px;
+    width: 250px;
+    background-color:darkkhaki;
+}
+#green{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: green;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#redSquare{
+    width: 135px;
+    height: 135px;
+    background-color: red;
+}
+#blueCircle{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    clear: both;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#fishTank{
+    color: white;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+#fish {
+    
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 50px solid coral;
+    transform: rotate(270deg);
+    
+}

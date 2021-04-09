@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+
+    background-color: rgb(221, 91, 58);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 140px;
+    
+    border: solid black 1px;
+    
+}
+#skills{
+    margin-left: 15px;
+    margin-right: 40px;
+}
+.nav{
+    margin-right: 60px;
+    font-size: 24px;
+    font-weight: 100;
+}
+#htmlImg{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+#html, #CSS{
+    font-weight: 800;
+    margin-left: 20px;
+    height: 40px;
+
+}
+
+#box1, #box2{
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+    border: dotted black 5px;
+    padding: 15px 15px 15px 15px;
+}
+#box2{
+    height: 400px;
+}
+#cssImg{
+    width: 150px;
+    height: 150px;
+    float: right;
+    
+}
